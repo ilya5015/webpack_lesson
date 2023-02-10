@@ -1,0 +1,67 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "webpack lesson",
+  "private": true,
+  "browserslist": "> 0.25%, not dead",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "serve": "cross-env NODE_ENV=development webpack --mode development --watch",
+    "startDev": "cross-env NODE_ENV=development webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilya5015/webpack_lesson.git"
+  },
+  "keywords": [
+    "js",
+    "webpack"
+  ],
+  "author": "Ilya <ilya50153@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilya5015/webpack_lesson/issues"
+  },
+  "homepage": "https://github.com/ilya5015/webpack_lesson#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "babel-loader": "^9.1.2",
+    "babel-register": "^6.26.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.3",
+    "csv-loader": "^3.0.5",
+    "eslint": "^8.33.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-bundle-analyzer": "^4.7.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "babel-eslint": "^10.1.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-webpack-plugin": "^4.0.0",
+    "jquery": "^3.6.3",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "lodash": "^4.17.21",
+    "node-sass": "^8.0.0",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass-loader": "^13.2.0"
+  }
+}
